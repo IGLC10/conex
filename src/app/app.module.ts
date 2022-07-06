@@ -14,12 +14,16 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { LoginComponent } from './login/login.component';
 
 import { FormsModule } from '@angular/forms';
+import { UbicacionesComponent } from './ubicaciones/ubicaciones.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ConexionComponent,
-    LoginComponent
+    LoginComponent,
+    UbicacionesComponent,
+    UsuariosComponent
   ],
   imports: [
     BrowserModule,
