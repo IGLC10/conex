@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "taco-1d998": {
+      "hosting": {
+        "conex": [
+          "taco-1d998"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "taco-1d998"
+  }
+}

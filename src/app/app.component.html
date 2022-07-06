@@ -1,0 +1,7 @@
+<router-outlet></router-outlet>
+<ul>
+  <li class="text" *ngFor="let item of items | async">
+    {{item.nombre}} {{item.Apellido}} {{item.temp}} 
+    <img [src]="item.foto">
+  </li>
+</ul>
