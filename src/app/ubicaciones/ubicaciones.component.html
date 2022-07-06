@@ -1,2 +1,20 @@
-<p>ubicaciones works!</p>
+<h1>Acerca de las ubicaciones</h1>
+<table>
+    <tr>
+        <th>Localizacion</th>
+        <th>Humedad</th>
+        <th>Temperatura</th>
+    </tr>
+    <tr *ngFor="let datos of json">
+        <td>{{datos.sensor}}</td>
+        <td>{{datos.humedad}}</td>
+        <td>{{datos.temp}}°</td>
+    </tr>
+    <input type="text" [(ngModel)]="valor" placeholder="Buscar localización">
+    <div *ngFor="let datos of json">
+        <div *ngIf="datos.sensor ==valor">
+            <h2>La Temperatura es de: {{datos.temp}} y la humedad es de: {{datos.humedad}}</h2>
+        </div>
+    </div>
+</table>
 <a routerLink="/back">Volver</a>
