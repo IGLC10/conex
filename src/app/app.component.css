@@ -1,3 +1,10 @@
 img{
 	width: 200px;
 }
+header{
+    height: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    font-family: fantasy;
+}
+

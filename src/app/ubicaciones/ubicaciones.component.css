@@ -26,3 +26,9 @@ a {
     background: #265301;
     color: #CDFEAA;
   }
+  h1
+  {
+text-align: center;
+font-family: fantasy;
+background-color: coral;
+  }
