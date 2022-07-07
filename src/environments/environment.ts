@@ -4,13 +4,13 @@
 
 export const environment = {
   firebase: {
-    projectId: 'unodostres-20383',
-    appId: '1:173919836542:web:498e42252218f70b293b2f',
-    storageBucket: 'unodostres-20383.appspot.com',
-    apiKey: 'AIzaSyDZJEYNORQ5ij8q5OvQmsdfDsBylEcgUx8',
-    authDomain: 'unodostres-20383.firebaseapp.com',
-    messagingSenderId: '173919836542',
-    measurementId: 'G-J1VJQFRT7S',
+    apiKey: "AIzaSyAREcqlnKIvfSvSwE1ZyMWstyyGNw6vrwE",
+    authDomain: "taco-1d998.firebaseapp.com",
+    projectId: "taco-1d998",
+    storageBucket: "taco-1d998.appspot.com",
+    messagingSenderId: "267264322186",
+    appId: "1:267264322186:web:657798ae117a14567f1b73",
+    measurementId: "G-G9RW1JBTQH"
   },
   production: false
 };
