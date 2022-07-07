@@ -10,8 +10,7 @@ export class ConexionComponent implements OnInit {
 	user = "";
 	last = "";
 	json = [
-		{user: "Eduardo", lastname: "Solis"},
-		{user: "Eduarre", lastname: "Solis"}
+		{user: "Admin", lastname: "admin"},
 	]
 
 	login(){
